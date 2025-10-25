@@ -2,7 +2,7 @@ from datasets import load_dataset
 import os
 
 # Where to save everything
-save_dir = "/scratch/ag11023/PufferDrive/pufferlib/data/processed/training"
+save_dir = "/scratch/<your-username>/PufferDrive/pufferlib/data/processed/training"
 
 # Force Hugging Face cache to stay in /scratch
 os.environ["HF_HOME"] = save_dir
